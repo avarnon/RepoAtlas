@@ -1,0 +1,10 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Pins transitive dependency versions in a committed packages.lock.json per project, so a
+         restore can't silently pick up a different transitive version between machines or CI runs,
+         and CI can cache restore by hashing the lock file (see setup-dotnet's cache-dependency-path). -->
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+</Project>

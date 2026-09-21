@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RepoAtlas.McpServer/RepoAtlas.McpServer.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RepoAtlas.McpServer.Tests/RepoAtlas.McpServer.Tests.csproj" />
+  </Folder>
+</Solution>
